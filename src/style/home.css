@@ -1,0 +1,639 @@
+/*  hero css start */
+.hero-section{
+    background: url(../assets//img/hero-1.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+    height: 100vh;
+    background-attachment: fixed;
+   }
+   .hero-wraper{
+       display: grid;
+       grid-template-columns: 1fr 1fr;
+       height: 100%;
+       
+   }
+   .hero-content{
+       align-self: center;
+       color: var(--white-color);
+   }
+   .hero-content h5{
+       letter-spacing: 10px;
+       margin-bottom: 1.6rem;
+   }
+   .hero-content h1{
+       font-size: 4.5rem;
+       margin-bottom: 2rem;
+   }
+   .hero-content h1 strong{
+       color: var(--orange-color);
+   }
+   .hero-content a{
+       margin-top: 10px;
+       display: inline-block;
+       text-decoration: none;
+       padding: 15px 30px ;
+       background-color: var(--orange-color);
+       color: var(--white-color);
+       font-weight: 500;
+       transition: .4s;
+   }
+   .hero-content a:hover{
+       background-color: var(--white-color);
+       color: var(--black-color);
+   }
+   /*  hero css end  */
+
+   @media only screen and (max-width: 480px) {
+    /*  hero css start */
+ .hero-section{
+     width: 100%;
+     height: 50vh;
+    }
+    .hero-wraper{
+        grid-template-columns:  1fr;
+    }
+    .hero-content{
+     text-align: center;
+    }
+    .hero-content h5{
+        letter-spacing:5px;
+    }
+    .hero-content h1{
+        font-size: 2rem;
+    }
+    
+   }
+   /*  hero css end  */
+
+
+
+
+
+
+/*  why-chose us css start */
+.why-scgose-sectio {
+    padding: 100px 0;
+}
+.why-scgose-sectio{
+    background-color: var(--black-color);
+}
+.why-chose-wraper{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    grid-gap: 2rem;
+}
+.why-chose-content{
+    text-align: center;
+}
+.why-chose-content h4{
+    margin-bottom: 10px;
+    font-size: 1.2rem;
+    color: var(--white-color);
+}
+.why-chose-content p{
+    color: var(--white-secundary);
+}
+.chose-icon i {
+    text-align: center;
+    font-size: 2rem;
+    background-color: var(--shado-color);
+    color: var(--orange-color);
+     width: 80px;
+     height: 80px;
+     line-height: 80px;
+     border-radius: 50%;
+     margin-bottom: 10px;
+     transition: .4s ease-in-out;
+}
+.chose-icon i:hover{
+    color: var(--white-color);
+    background-color:var(--orange-color) ;
+}
+/*  why-chose us css end  */
+
+
+/*  why-chose  mobile css  start */
+@media only screen and (max-width: 480px) {
+    
+
+    .why-chose-wraper{
+        grid-template-columns:1fr;
+    
+    }
+    
+      .comon-header h5{
+        font-size: 14px;
+      }
+      .comon-header h2{
+        font-size: 1rem;
+      }
+      }
+    
+      /*  why-chose us mobile  css end  */
+    
+
+
+
+      /*  manu css start */
+.manu-section {
+    background-color: var(--shado-color);
+}
+.manu-wraper{
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    grid-gap: 2rem;
+    height: 100%;
+}
+.manu-left{
+    align-self: center;
+}
+.manu-left h4{
+    color: var(--white-color);
+}
+.manu-left p{
+    color: var(--white-secundary);
+    line-height: 1.6rem;
+}
+.manu-header h5{
+    color: var(--orange-color);
+}
+.manu-header h2{
+    color: var(--white-color);
+    font-weight: 700;
+}
+
+.manu-right-img img{
+    border-radius: 0 10px 20px 0;
+    width: 300px;
+    height: 100%;
+}
+/*  manu css end  */
+/* MANU MOBILE CSS START */
+@media only screen and (max-width: 480px) {
+    .manu-section {
+      background-color: var(--shado-color);
+  }
+  .manu-left h3{
+    font-size: 1rem;
+  }
+  .manu-left p{
+    font-size: 13px;
+     line-height: 16px;
+  }
+  .manu-header h5{
+    font-size: 1rem;
+  }
+  .manu-header h2{
+    font-size: 1.3rem;
+  }
+  .manu-wraper{
+      display: grid;
+      grid-template-columns:  1fr;
+      grid-gap: 2rem;
+  }
+  .manu-right-img img{
+      width: 100%;
+      height: 100%;
+  }
+  }
+/* 
+MANU MOBILE CSS END  */
+
+
+/* WHAT WE CAN OFFER  css start */
+.class-offer-section{
+    background-color: var(--shado-color);
+}
+.offer-wraper{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-gap: 2rem;
+}
+.offer-img img{
+    width: 100%;
+  
+}
+.offer-img {
+    margin-top: 10px;
+}
+.offer-content{
+    align-self: center;
+    height: 18vh;
+    width: 100%;
+    background-color:var(--black-color);
+}
+.offer-content h5{
+    margin-bottom: 10px;
+    margin-left: 10px;
+    color: var(--white-color);
+}
+.offer-content h6{
+    padding: 10px 0;
+    font-size: 10px;
+    margin-left: 10px;
+    color: var(--orange-color); 
+    
+}
+.offer-content i{
+    margin-left: 10px;
+    font-size: 1.5rem;
+    color: var(--white-color);
+}
+
+/*  big -offer section sss start */
+.big-wraper{
+    display: flex;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 2rem;
+ 
+   
+}
+.big-offer-img img{
+    text-align: center;
+    width: 100%;
+}
+.big-offer-content{
+    
+    background-color: var(--black-color);
+}
+.big-offer-content h6{
+    margin-left: 10px;
+    color: var(--orange-color);
+}
+.big-offer-content h1{
+    margin-left: 10px;
+    color: var(--white-color);
+}
+.big-offer-content i{
+    margin-left: 10px;
+    font-size: 2rem;
+    color: var(--white-color);
+}
+/*  big -offer section sss end  */
+/* WHAT WE CAN OFFER  css end  */
+
+
+
+ /* /* WHAT WE CAN OFFER  modile css start  */
+ @media only screen and (max-width: 480px) {
+
+    .offer-wraper{
+        grid-template-columns:1fr;
+        grid-gap: 2rem;
+    }
+    .offer-content{
+        height: 20vh;
+        padding: 25px 0;
+        text-align: center;
+    }
+      }
+     /* WHAT WE CAN OFFER  modile css end   */
+    
+    /*  big -offer section mobile  sss start */
+     @media only screen and (max-width: 480px) {
+      .big-wraper{
+        display: flex;
+        grid-template-columns: 1fr ;
+        grid-gap: 1rem;
+    }
+    .big-offer-img img{
+        width: 100%;
+    }
+    .big-offer-content{
+      text-align: center;
+    }
+    .big-offer-content h1{
+      font-size: 15px;
+    }
+    .big-offer-content i{
+        font-size: 1rem;
+    }
+     }
+    /*  big -offer section mobile  css end  */
+
+
+
+    /*  apmointment section css start */
+.Appointment-section{
+    background-image:linear-gradient(to right, rgba(21, 21, 22, 0.7), rgba(21, 21, 22, 0.7)) ,url('../assets//img/appoint.jpg') ;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+    height: 70vh;
+    background-attachment: fixed;
+}
+.apmointment-wraper{
+    display: grid;
+    height: 100%;
+}
+.apoinment-content{
+    text-align: center;
+    align-self: center;
+}
+
+.apoinment-content h1{
+    font-size: 3rem;
+    color: var(--white-color);
+    font-weight: 800;
+    margin-bottom: 10px;
+}
+.apoinment-content h6{
+    color: var(--white-secundary);
+}
+.apoinment-content a{
+    color: var(--white-color);
+     margin-top: 1rem;
+    display: inline-block;
+    padding: 15px 20px;
+    background-color: var(--orange-color);
+    text-decoration: none;
+    font-weight: 500;
+    transition: .4s ease-in-out;
+}
+.apoinment-content a:hover{
+    background-color: var(--white-color);
+    color: var(--black-color);
+
+}
+/*  apmointment section css end */
+
+
+@media only screen and (max-width: 480px) {
+    /*  apmointment section css start */
+    .Appointment-section{
+      width: 100%;
+      height: 41vh;
+    
+    }
+    .apmointment-wraper{
+      display: grid;
+      height: 100%;
+    }
+    
+    .apoinment-content h1{
+      font-size: 1rem;
+    }
+    .apoinment-content h6{
+    font-size: 10px;
+    }
+    .apoinment-content a{
+      padding: 10px 15px;
+    }
+    }
+    
+    /*  apmointment section css end */
+
+
+
+
+    /*  pricing-table css start */
+.pricing-table{
+    padding: 100px 0;
+}
+.pricing-table{
+  
+    background-color: var(--shado-color);
+}
+.pricing-wraper{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    height: 100%;
+    grid-gap: 2rem;
+    
+}
+.card-content{
+    margin-top:  4rem;
+    justify-content: center;
+    align-self: center;
+}
+.card-content h4{
+    color: var(--white-color);
+    margin-bottom:1.5rem;
+}
+.card-content h1{
+    color: var(--orange-color);
+    font-size: 3rem;
+    margin-bottom:1.5rem;
+}
+.card-content h6{
+    text-align: center;
+    color: var(--white-secundary);
+}
+.card-content p{
+    text-align: center;
+    color: var(--white-color);
+}
+.card button{
+    font-weight: 700;
+    text-align: center;
+    color: var(--white-color);
+    display: inline-block;
+    text-decoration: none;
+    padding: 20px 50px ;
+    background-color: var(--orange-color);
+    transition: .4s ease-in-out;
+}
+.card button:hover{
+    background-color: var(--white-color);
+    color: var(--black-color);
+   
+}
+.card{
+
+    clip-path: polygon(0 13%, 100% 0, 100% 92%, 0 100%, 0 100%);
+    background-color: var(--black-color);
+    border: 0.1px solid rgb(175, 70, 70);
+    width: 100%;
+    height: 110%;
+    transition: .4s ease-in-out;
+
+}
+.card:hover{
+    box-shadow: rgba(17, 12, 46, 0.15) 0px 48px 100px 0px;
+   background-color: var(--white-secundary);
+}
+/*  pricing-table css end  */
+
+
+/*  pricing-table mobile css start */
+
+@media only screen and (max-width: 480px) {
+    .pricing-wraper{
+      display: grid;
+      grid-template-columns: 1fr;
+      height: 100%;
+      grid-gap: 1rem;
+  }
+  .card-content{
+    margin-top:  4rem;
+    justify-content: center;
+    align-self: center;
+  }
+  .card-content h4{
+    color: var(--white-color);
+    margin-bottom:1.5rem;
+  }
+  .card-content h1{
+    text-align: center;
+    font-size: 1.7rem;
+  }
+  .card{
+    width: 100%;
+    height: 80vh;
+  
+  }
+  }
+  /*  pricing-table mobile css end  */
+
+
+
+
+
+  /*  team-css start */
+.team-secion{
+    padding: 100px 0;
+    background-color: var(--shado-color);
+}
+.team-wraper{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    grid-gap: 1rem;
+}
+.team-img{
+    background-color: var(--orange-color);
+}
+.team-img img{
+    width: 100%;
+    height: auto;
+}
+.team-content h4{
+    font-weight: 500;
+}
+.team-content p{
+    font-weight: 400;
+    font-size: 1.2rem;
+    color: var(--white-secundary);
+}
+/*  team-css end  */
+
+
+/*  team  mobile css start */
+@media only screen and (max-width: 480px) {
+    .team-wraper{
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-gap: 1rem;
+        
+    }
+    .team-content p{
+        font-size: 1rem;
+    }
+    }
+    /*  team mobile css end  */
+
+
+
+    /*  grid-gallary css start */
+.grid-gallary{
+  
+    background-color: var(--shado-color);
+}
+
+.container-wraper{
+    width: 100%;
+    display: grid;
+    grid-auto-flow: dense;
+    grid-template: "1fr 1fr 1fr 1fr 1fr" 33.33vh
+                   "1fr 1fr 1fr 1fr 1fr" 33.33vh
+                   "1fr 1fr 1fr 1fr 1fr" 33.33vh;               
+}
+.box{
+    background-color: #ccc;
+    position: relative;
+}
+.box img{
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+.a{
+grid-row: span 2;
+}
+ .b ,.f,.h,.j{
+    grid-column: span 2;
+ }
+/*  grid-gallary css end */
+
+ /*  grid-gallary  mediya quarry css start   */
+
+ @media only screen and (max-width:1024px) {
+    .container-wraper{
+    grid-template: "1fr 1fr 1fr "250px
+                  "1fr 1fr 1fr " 250px
+                  "1fr 1fr 1fr " 250px
+                  "1fr 1fr 1fr " 250px
+                  "1fr 1fr 1fr " 250px;
+                    
+                      
+    }
+  }
+  @media only screen and (max-width: 768px) {
+    .container-wraper{
+    grid-template: "1fr 1fr " 200px
+                    "1fr 1fr " 200px
+                    "1fr 1fr " 200px
+                    "1fr 1fr " 200px
+                    "1fr 1fr " 200px
+                    "1fr 1fr " 200px
+                    "1fr 1fr " 200px;               
+    }
+  .j{
+        grid-column: span 1;
+    }
+  }
+  @media only screen and (max-width: 400px) {
+    .container-wraper{
+        grid-template: "1fr  " 150px
+                       "1fr  " 150px
+                       "1fr  " 150px
+                       "1fr  " 150px
+                       "1fr  " 150px
+                       "1fr  " 150px
+                       "1fr  " 150px;                 
+    }
+    .j{
+        grid-column: span 1;
+    }
+  }
+  /*  grid-gallary  mediya wuary css end    */
+
+
+
+
+  /*  btn  */
+  a.btn.btn-primary {
+    background: var(--orange-color);
+    border: none;
+    display: block;
+    padding: 12px;
+}
+a.btn.btn-primary:hover{
+    background-color: whitesmoke;
+    color: black;
+    font-weight: bold;
+}
+
+.bg-c{
+    background: var(--orange-color);
+}
+.contact{
+    background: url(../assets/img/contact.jpg) no-repeat center;
+    height: 50vh;
+    background-size: cover;
+}

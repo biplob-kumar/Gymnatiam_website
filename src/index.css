@@ -1,0 +1,18 @@
+/*  google front start */
+@import url('https://fonts.googleapis.com/css2?family=Unbounded:wght@200;300;400;500;600;700;800;900&display=swap');
+/*  google gronyt end  */
+
+/* Default css start */
+:root{
+   --orange-color:#f36100;
+   --white-color:#ffffff;
+   --white-secundary:#a9a9a9;
+   --black-color:#0a0a0a;
+   --shado-color:#151515;
+  
+}
+h1,h2,h3,h4,h5,h6,a,span{
+  font-family: 'Unbounded', cursive;
+}
+
+/* Default css end  */

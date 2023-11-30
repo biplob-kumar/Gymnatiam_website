@@ -1,0 +1,37 @@
+
+
+/*  nabbar css  */
+
+a.text-white.nav-link {
+    margin: 12px 7px;
+    font-size: 1.1rem;
+}
+
+/*  nav css start */
+.navbar-light{
+    font-size: 14px;
+    transition: .4s ease-in-out;
+}
+.nav-link:hover{
+    background-color: var(--orange-color);
+}
+.social i{
+    font-size: 1rem;
+    color: var(--orange-color);
+    background-color: #f36100;
+    width: 40px;
+    height: 40px;
+    line-height: 40px;
+    border-radius: 50%;
+    text-align: center;
+    transition: .4s ease-in-out;
+}
+.social i:hover{
+     color: red;
+    background-color: var(--black-color);
+}
+/*  nav css end  */
+
+
+/*  loder  */
+

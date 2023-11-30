@@ -1,0 +1,276 @@
+
+/*  mediya wuarry csss start*/
+
+@media only screen and (max-width: 480px) {
+   /*  hero css start */
+.hero-section{
+    width: 100%;
+    height: 50vh;
+   }
+   .hero-wraper{
+       grid-template-columns:  1fr;
+   }
+   .hero-content{
+    text-align: center;
+   }
+   .hero-content h5{
+       letter-spacing:5px;
+   }
+   .hero-content h1{
+       font-size: 2rem;
+   }
+   
+  }
+  /*  hero css end  */
+/*  why-chose  mobile css  start */
+  @media only screen and (max-width: 480px) {
+    
+
+.why-chose-wraper{
+    grid-template-columns:1fr;
+
+}
+
+  .comon-header h5{
+    font-size: 14px;
+  }
+  .comon-header h2{
+    font-size: 1rem;
+  }
+  }
+
+  /*  why-chose us mobile  css end  */
+
+/* MANU MOBILE CSS START */
+  @media only screen and (max-width: 480px) {
+    .manu-section {
+      background-color: var(--shado-color);
+  }
+  .manu-left h3{
+    font-size: 1rem;
+  }
+  .manu-left p{
+    font-size: 13px;
+     line-height: 16px;
+  }
+  .manu-header h5{
+    font-size: 1rem;
+  }
+  .manu-header h2{
+    font-size: 1.3rem;
+  }
+  .manu-wraper{
+      display: grid;
+      grid-template-columns:  1fr;
+      grid-gap: 2rem;
+  }
+  .manu-right-img img{
+      width: 100%;
+      height: 100%;
+  }
+  }
+/* 
+MANU MOBILE CSS END  */
+
+
+
+
+
+  /* /* WHAT WE CAN OFFER  modile css start  */
+  @media only screen and (max-width: 480px) {
+
+.offer-wraper{
+    grid-template-columns:1fr;
+    grid-gap: 2rem;
+}
+.offer-content{
+    height: 20vh;
+    padding: 25px 0;
+    text-align: center;
+}
+  }
+ /* WHAT WE CAN OFFER  modile css end   */
+
+/*  big -offer section mobile  sss start */
+ @media only screen and (max-width: 480px) {
+  .big-wraper{
+    display: flex;
+    grid-template-columns: 1fr ;
+    grid-gap: 1rem;
+}
+.big-offer-img img{
+    width: 100%;
+}
+.big-offer-content{
+  text-align: center;
+}
+.big-offer-content h1{
+  font-size: 15px;
+}
+.big-offer-content i{
+    font-size: 1rem;
+}
+ }
+/*  big -offer section mobile  css end  */
+
+@media only screen and (max-width: 480px) {
+/*  apmointment section css start */
+.Appointment-section{
+  width: 100%;
+  height: 41vh;
+
+}
+.apmointment-wraper{
+  display: grid;
+  height: 100%;
+}
+
+.apoinment-content h1{
+  font-size: 1rem;
+}
+.apoinment-content h6{
+font-size: 10px;
+}
+.apoinment-content a{
+  padding: 10px 15px;
+}
+}
+
+/*  apmointment section css end */
+/*  pricing-table mobile css start */
+
+@media only screen and (max-width: 480px) {
+  .pricing-wraper{
+    display: grid;
+    grid-template-columns: 1fr;
+    height: 100%;
+    grid-gap: 1rem;
+}
+.card-content{
+  margin-top:  4rem;
+  justify-content: center;
+  align-self: center;
+}
+.card-content h4{
+  color: var(--white-color);
+  margin-bottom:1.5rem;
+}
+.card-content h1{
+  text-align: center;
+  font-size: 1.7rem;
+}
+.card{
+  width: 100%;
+  height: 80vh;
+
+}
+}
+/*  pricing-table mobile css end  */
+
+ /*  grid-gallary  mediya quarry css start   */
+
+ @media only screen and (max-width:1024px) {
+  .container-wraper{
+  grid-template: "1fr 1fr 1fr "250px
+                "1fr 1fr 1fr " 250px
+                "1fr 1fr 1fr " 250px
+                "1fr 1fr 1fr " 250px
+                "1fr 1fr 1fr " 250px;
+                  
+                    
+  }
+}
+@media only screen and (max-width: 768px) {
+  .container-wraper{
+  grid-template: "1fr 1fr " 200px
+                  "1fr 1fr " 200px
+                  "1fr 1fr " 200px
+                  "1fr 1fr " 200px
+                  "1fr 1fr " 200px
+                  "1fr 1fr " 200px
+                  "1fr 1fr " 200px;               
+  }
+.j{
+      grid-column: span 1;
+  }
+}
+@media only screen and (max-width: 400px) {
+  .container-wraper{
+      grid-template: "1fr  " 150px
+                     "1fr  " 150px
+                     "1fr  " 150px
+                     "1fr  " 150px
+                     "1fr  " 150px
+                     "1fr  " 150px
+                     "1fr  " 150px;                 
+  }
+  .j{
+      grid-column: span 1;
+  }
+}
+/*  grid-gallary  mediya wuary css end    */
+
+/*  team-css mobile start */
+
+/*  team  mobile css start */
+@media only screen and (max-width: 480px) {
+.team-wraper{
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-gap: 1rem;
+    
+}
+.team-content p{
+    font-size: 1rem;
+}
+}
+/*  team mobile css end  */
+/*  contact mobile css start */
+@media only screen and (max-width: 480px) {
+
+.contact-wrapaer{
+display: grid;
+grid-template-columns: 1fr;
+grid-gap: 2rem;
+}
+.contact-form input {
+  width: 100%;
+    margin: 10px 0;
+    padding: 30px 70px ;
+    display: block;
+} 
+.contact-form textarea{
+  width: 100%;
+  height: 200px;
+  padding: 0px 85px ;
+  display: block;
+}
+.contact-form a{
+    padding: 10px 30px;
+}
+}
+/*  contact-mobile css end  */
+/*  mediya wuarry csss end */
+
+/*  footer mobile css strart */
+
+@media only screen and (max-width: 480px) {
+  .footer-main{
+    background-color: var(--black-color);
+    height: 100%;
+}
+.footer-wraper{
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-gap: 1rem
+ 
+}
+.footer-content{
+  text-align: center;
+}
+.footer-content p{
+    line-height: 1.2rem;
+}
+}
+/*  footer mobile css end  */
+
