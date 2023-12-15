@@ -1,8 +1,5 @@
 # React + Vite
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This Template is a Gymnatiyam website templete 
 
-Currently, two official plugins are available:
-
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+<img src="[/path/to/img.jpg](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhnyE7D3g5vvCqHEsgtu-TpAvcMR1uQUeECDZ-iykThoS2Kg-fhVY7fKSWhQp53DlDMKFWvm4DruKsIlBYqjwLsOe7Ikp8l38ckBgB1s8pzsT_hmETMqcsK_aah7syGHbqeSN_m5hInMhO3hNSufw6PX0WAbRWVnFFqy-C1On_hQd5ESU-xR8jEzZFd/s320/Screenshot_1.png)https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhnyE7D3g5vvCqHEsgtu-TpAvcMR1uQUeECDZ-iykThoS2Kg-fhVY7fKSWhQp53DlDMKFWvm4DruKsIlBYqjwLsOe7Ikp8l38ckBgB1s8pzsT_hmETMqcsK_aah7syGHbqeSN_m5hInMhO3hNSufw6PX0WAbRWVnFFqy-C1On_hQd5ESU-xR8jEzZFd/s320/Screenshot_1.png" alt="Alt text" title="Optional title">
