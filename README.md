@@ -2,4 +2,4 @@
 
 This Template is a Gymnatiyam website template 
 
-<img src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhnyE7D3g5vvCqHEsgtu-TpAvcMR1uQUeECDZ-iykThoS2Kg-fhVY7fKSWhQp53DlDMKFWvm4DruKsIlBYqjwLsOe7Ikp8l38ckBgB1s8pzsT_hmETMqcsK_aah7syGHbqeSN_m5hInMhO3hNSufw6PX0WAbRWVnFFqy-C1On_hQd5ESU-xR8jEzZFd/s320/Screenshot_1.png"  width="800" alt="Alt text" title="Optional title">
+<img src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgzBNHrIOSf2Al5sxUEdOThNA051rbk5YKnVue9cs8ALyHPAV-jW5tyq3b8J3npRLWz7_Y_nD2LWLQrUtoo2IebIc2cPHQxDxVsFcGKtmFel4QB7n7slchNt5JmkTa-lt4T_8pSYGEfkTqGti9f2sJH-zSCsicLJ6CDsShWFk-p2TyqSXf2bAHivWic/s320/screencapture-gymnatiam-netlify-app-2023-12-16-01_38_25.png"  width="800" alt="Alt text" title="Optional title">
